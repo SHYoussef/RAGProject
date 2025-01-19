@@ -8,6 +8,8 @@ This repository contains a Retrieval-Augmented Generation (RAG) application.
 
 Feel free to experiment with other models by simply changing the Hugging Face model repository name in the code.
 
+A Chroma database was used to store the sub-documents after splitting the initial document into chunks.
+
 ### Installation:
 A `requirements.txt` file is included in the repository, listing all necessary libraries and their respective versions.  
 Note: Python 3.11.1 is recommended, as the latest version (3.13) is not fully supported by the `torch` library.
